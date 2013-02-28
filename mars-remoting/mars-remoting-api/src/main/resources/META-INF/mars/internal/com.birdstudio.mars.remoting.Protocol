@@ -1,0 +1,3 @@
+filter=com.birdstudio.mars.remoting.protocol.ProtocolFilterWrapper
+listener=com.birdstudio.mars.remoting.protocol.ProtocolListenerWrapper
+mock=com.birdstudio.mars.remoting.support.MockProtocol

@@ -1,0 +1,2 @@
+zkclient=com.birdstudio.mars.network.zookeeper.zkclient.ZkclientZookeeperTransporter
+curator=com.birdstudio.mars.network.zookeeper.curator.CuratorZookeeperTransporter

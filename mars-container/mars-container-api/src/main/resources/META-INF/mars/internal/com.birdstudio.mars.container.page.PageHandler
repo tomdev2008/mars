@@ -1,0 +1,4 @@
+index=com.birdstudio.mars.container.page.pages.HomePageHandler
+status=com.birdstudio.mars.container.page.pages.StatusPageHandler
+log=com.birdstudio.mars.container.page.pages.LogPageHandler
+system=com.birdstudio.mars.container.page.pages.SystemPageHandler

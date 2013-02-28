@@ -1,0 +1,5 @@
+clear=com.birdstudio.mars.network.telnet.support.command.ClearTelnetHandler
+exit=com.birdstudio.mars.network.telnet.support.command.ExitTelnetHandler
+help=com.birdstudio.mars.network.telnet.support.command.HelpTelnetHandler
+status=com.birdstudio.mars.network.telnet.support.command.StatusTelnetHandler
+log=com.birdstudio.mars.network.telnet.support.command.LogTelnetHandler

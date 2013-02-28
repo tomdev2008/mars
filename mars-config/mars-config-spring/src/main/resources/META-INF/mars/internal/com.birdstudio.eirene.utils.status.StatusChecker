@@ -1,0 +1,2 @@
+spring=com.birdstudio.mars.config.spring.status.SpringStatusChecker
+datasource=com.birdstudio.mars.config.spring.status.DataSourceStatusChecker

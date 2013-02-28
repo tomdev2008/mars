@@ -1,0 +1,2 @@
+servers=com.birdstudio.mars.remoting.protocol.mars.page.ServersPageHandler
+clients=com.birdstudio.mars.remoting.protocol.mars.page.ClientsPageHandler

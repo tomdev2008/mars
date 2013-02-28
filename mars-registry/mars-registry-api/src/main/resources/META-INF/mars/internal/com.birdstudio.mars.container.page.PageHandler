@@ -1,0 +1,3 @@
+registries=com.birdstudio.mars.registry.pages.RegistriesPageHandler
+registered=com.birdstudio.mars.registry.pages.RegisteredPageHandler
+subscribed=com.birdstudio.mars.registry.pages.SubscribedPageHandler

@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.birdstudio.mars.remoting</groupId>
+    <artifactId>mars-remoting</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>mars-remoting-cxf</artifactId>
+  <packaging>jar</packaging>
+  <name>Mars :: Remoting CXF</name>
+  <dependencies>
+	 <dependency>
+	    <groupId>com.birdstudio.mars.remoting</groupId>
+		<artifactId>mars-remoting-api</artifactId>
+	 </dependency>	
+  	 <dependency>
+		<groupId>com.birdstudio.mars.network</groupId>
+		<artifactId>mars-network-http</artifactId>
+	 </dependency>	 	 
+	 <dependency>
+		<groupId>org.apache.cxf</groupId>
+		<artifactId>cxf-rt-frontend-simple</artifactId>
+	 </dependency>
+	 <dependency>
+		<groupId>org.apache.cxf</groupId>
+		<artifactId>cxf-rt-transports-http</artifactId>
+	 </dependency>	  
+  </dependencies>    
+</project>

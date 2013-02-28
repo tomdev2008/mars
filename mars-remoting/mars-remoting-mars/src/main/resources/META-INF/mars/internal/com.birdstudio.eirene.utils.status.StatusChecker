@@ -1,0 +1,2 @@
+server=com.birdstudio.mars.remoting.protocol.mars.status.ServerStatusChecker
+threadpool=com.birdstudio.mars.remoting.protocol.mars.status.ThreadPoolStatusChecker

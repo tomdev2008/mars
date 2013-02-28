@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.birdstudio.mars.config</groupId>
+    <artifactId>mars-config</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>mars-config-api</artifactId>
+  <name>Mars :: Config API</name>
+  <dependencies>
+	 <dependency>
+	    <groupId>com.birdstudio.mars.remoting</groupId>
+		<artifactId>mars-remoting-api</artifactId>
+	 </dependency>	 
+	 <dependency>
+	    <groupId>com.birdstudio.mars.remoting</groupId>
+		<artifactId>mars-remoting-injvm</artifactId>
+	 </dependency>		 
+	 <dependency>
+	    <groupId>com.birdstudio.mars.remoting</groupId>
+		<artifactId>mars-remoting-mars</artifactId>
+	 </dependency>		
+  	  <dependency>
+		<groupId>com.birdstudio.mars.cluster</groupId>
+		<artifactId>mars-cluster</artifactId>
+	  </dependency>		
+  	  <dependency>
+		<groupId>com.birdstudio.mars.network</groupId>
+		<artifactId>mars-network-api</artifactId>
+	  </dependency>		   
+  	  <dependency>
+		<groupId>com.birdstudio.mars.registry</groupId>
+		<artifactId>mars-registry-api</artifactId>
+	  </dependency>		
+  	  <dependency>
+		<groupId>com.birdstudio.mars.monitor</groupId>
+		<artifactId>mars-monitor-api</artifactId>
+	  </dependency>		    
+  </dependencies>      
+</project>

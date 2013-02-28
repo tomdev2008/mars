@@ -1,0 +1,7 @@
+ls=com.birdstudio.mars.remoting.protocol.mars.telnet.ListTelnetHandler
+ps=com.birdstudio.mars.remoting.protocol.mars.telnet.PortTelnetHandler
+cd=com.birdstudio.mars.remoting.protocol.mars.telnet.ChangeTelnetHandler
+pwd=com.birdstudio.mars.remoting.protocol.mars.telnet.CurrentTelnetHandler
+invoke=com.birdstudio.mars.remoting.protocol.mars.telnet.InvokeTelnetHandler
+trace=com.birdstudio.mars.remoting.protocol.mars.telnet.TraceTelnetHandler
+count=com.birdstudio.mars.remoting.protocol.mars.telnet.CountTelnetHandler

@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.birdstudio.mars</groupId>
+    <artifactId>mars-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.birdstudio.mars.cluster</groupId>
+  <artifactId>mars-cluster</artifactId>
+  <packaging>jar</packaging>
+  <name>Mars :: Cluster</name>
+  <dependencies>
+  	  <dependency>
+		<groupId>com.birdstudio.mars.remoting</groupId>
+		<artifactId>mars-remoting-api</artifactId>
+		<version>${mars-version}</version>
+	  </dependency>		  
+  </dependencies>  
+</project>

@@ -1,0 +1,2 @@
+trace=com.birdstudio.mars.remoting.protocol.mars.filter.TraceFilter
+future=com.birdstudio.mars.remoting.protocol.mars.filter.FutureFilter

@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.birdstudio.mars</groupId>
+    <artifactId>mars-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.birdstudio.mars.network</groupId>
+  <artifactId>mars-network</artifactId>
+  <name>Mars :: Network</name>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>mars-network-api</module>
+  	<module>mars-network-http</module>
+  	<module>mars-network-zookeeper</module>
+  	<module>mars-network-netty</module>
+  </modules>
+  <dependencyManagement>
+     <dependencies>
+	  	 <dependency>
+			<groupId>com.birdstudio.mars.network</groupId>
+			<artifactId>mars-network-api</artifactId>
+			<version>${mars-version}</version>
+		 </dependency>	 
+	 </dependencies> 
+  </dependencyManagement>	 
+</project>

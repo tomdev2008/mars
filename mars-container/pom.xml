@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.birdstudio.mars</groupId>
+    <artifactId>mars-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.birdstudio.mars.container</groupId>
+  <artifactId>mars-container</artifactId>
+  <name>Mars :: Container</name>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>mars-container-api</module>
+  	<module>mars-container-spring</module>
+  </modules>
+  <dependencyManagement>
+     <dependencies>
+		<dependency>
+			<groupId>com.birdstudio.mars.container</groupId>
+			<artifactId>mars-container-api</artifactId>
+			<version>${mars-version}</version>
+		</dependency>     
+     </dependencies>
+  </dependencyManagement>
+</project>

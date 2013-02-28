@@ -1,0 +1,5 @@
+all=com.birdstudio.mars.network.transport.dispatcher.all.AllDispatcher
+direct=com.birdstudio.mars.network.transport.dispatcher.direct.DirectDispatcher
+message=com.birdstudio.mars.network.transport.dispatcher.message.MessageOnlyDispatcher
+execution=com.birdstudio.mars.network.transport.dispatcher.execution.ExecutionDispatcher
+connection=com.birdstudio.mars.network.transport.dispatcher.connection.ConnectionOrderedDispatcher

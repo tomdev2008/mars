@@ -1,0 +1,14 @@
+echo=com.birdstudio.mars.remoting.filter.EchoFilter
+generic=com.birdstudio.mars.remoting.filter.GenericFilter
+genericimpl=com.birdstudio.mars.remoting.filter.GenericImplFilter
+token=com.birdstudio.mars.remoting.filter.TokenFilter
+accesslog=com.birdstudio.mars.remoting.filter.AccessLogFilter
+activelimit=com.birdstudio.mars.remoting.filter.ActiveLimitFilter
+classloader=com.birdstudio.mars.remoting.filter.ClassLoaderFilter
+context=com.birdstudio.mars.remoting.filter.ContextFilter
+consumercontext=com.birdstudio.mars.remoting.filter.ConsumerContextFilter
+exception=com.birdstudio.mars.remoting.filter.ExceptionFilter
+executelimit=com.birdstudio.mars.remoting.filter.ExecuteLimitFilter
+deprecated=com.birdstudio.mars.remoting.filter.DeprecatedFilter
+compatible=com.birdstudio.mars.remoting.filter.CompatibleFilter
+timeout=com.birdstudio.mars.remoting.filter.TimeoutFilter
